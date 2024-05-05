@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "url": "your_postgresql_connection_string",
+  "entities": ["src/models/*.ts"],
+  "migrations": ["src/migrations/*.ts"],
+  "cli": {
+    "entitiesDir": "src/models",
+    "migrationsDir": "src/migrations"
+  }
+}
